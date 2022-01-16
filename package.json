@@ -1,0 +1,33 @@
+{
+    "name": "dnapis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dlelo/dnapis.git"
+    },
+    "keywords": [
+        "node",
+        "js",
+        "express",
+        "api"
+    ],
+    "author": "Donattah Akinyi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Dlelo/dnapis/issues"
+    },
+    "homepage": "https://github.com/Dlelo/dnapis#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "helmet": "^5.0.1",
+        "mongoose": "^6.1.5",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15"
+    }
+}
