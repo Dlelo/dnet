@@ -39,7 +39,23 @@ const UserSchema = new mongoose.Schema({
     isAdmin: {
         type: Boolean,
         default: false
+    },
+    desc: {
+        type: String,
+        max: 50
+    },
+    country: {
+        type: String,
+        max: 50
+    },
+    city: {
+        type: String,
+        max: 50
+    },
+    street: {
+        type: String,
+        max: 50
     }
 
-});
+}, { timestamps: true });
 module.exports = mongoose.model("User", UserSchema);
